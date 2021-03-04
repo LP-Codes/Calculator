@@ -1,0 +1,31 @@
+.button {
+    width: 280px;;
+    text-align: center;
+    height: 80px;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+.button22{
+    width: 229px;;
+    text-align:center;
+    height: 319px;
+    font-size: 30px;
+    font-weight: bold;
+    float: right;
+    margin-right: 0px;
+    align-self: center;
+    background-color: rgb(238, 31, 72);
+    color: white;
+  
+   
+    
+    
+}
+
+.input11{
+    background-color: rgb(248, 166, 234);
+    height: 80px;
+    font-size: 30px;
+    font-weight: bold;
+}
