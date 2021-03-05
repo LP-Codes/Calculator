@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
@@ -10,119 +9,123 @@
     <!-- <link rel="stylesheet" href="index.css" /> -->
     <link rel="stylesheet" href="./node_modules/bulma/css/bulma.css" />
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
-        integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
-        crossorigin="anonymous" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+      integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+      crossorigin="anonymous"
+    />
 
     <title>Title</title>
-</head>
+  </head>
 
-<body>
-    <div>
-        <h2>
-            <i class="fas fa-calculator"></i>Simple-Calculator
-            <i class="fas fa-calculator"></i>
-        </h2>
-        <hr />
+<body  class="box has-text-centered ">
+    <div class="box has-text-centered">
+      <h1 class="title is-2 has-background-grey has-text-white"><i class="fas fa-calculator"></i> Simple Calculator</h1>
     </div>
-    <br />
+    
 
-    <div>
-        <div>
-            <span>Values</span>
-        </div>
-        <input type="text" id="inpt1" />
-    </div>
+    <form class="box">
+      <div class="control">
+        <input class="input is-primary is-large" type="text" id="inpt1" placeholder="Enter Value" />
+      </div>
+    </form>
+
     <br />
 
     <div class="columns is-mobile box">
-        <div class="column">
-            <button class="button is-large is-link is-fullwidth is-focused" id="btn1">
-                1
-            </button>
-        </div>
-        <div class="column">
-            <button class="button is-large is-link is-fullwidth" id="btn2">
-                2
-            </button>
-        </div>
-        <div class="column">
-            <button class="button is-large is-link is-fullwidth" id="btn3">
-                3
-            </button>
-        </div>
-        <div class="column">
-            <button class="button is-large is-link is-fullwidth" id="divd">
-                /
-            </button>
-        </div>
-
-
-        
+      <div class="column">
+        <button
+          class="button is-large is-link is-fullwidth is-focused"
+          id="btn1"
+        >
+          1
+        </button>
+      </div>
+      <div class="column">
+        <button class="button is-large is-link is-fullwidth" id="btn2">
+          2
+        </button>
+      </div>
+      <div class="column">
+        <button class="button is-large is-link is-fullwidth" id="btn3">
+          3
+        </button>
+      </div>
+      <div class="column">
+        <button class="button is-large is-link is-fullwidth" id="divd">
+          /
+        </button>
+      </div>
     </div>
-    <div class=" columns is-mobile box">
-            <div class="column">
-                <button class="button is-large is-link is-fullwidth" id="btn4">
-                    4
-                </button>
-            </div>
-            <div class="column">
-                <button class="button is-large is-link is-fullwidth" id="btn5">
-                    5
-                </button>
-            </div>
-            <div class="column">
-                <button class="button is-large is-link is-fullwidth" id="btn6">
-                    6
-                </button>
-            </div>
-            <div class="column"><button class="button is-large is-link is-fullwidth" id="plus">+</button></div>
-        </div>
-        <div class=" columns is-mobile box">
-            <div class="column">
-                <button class="button is-large is-link is-fullwidth" id="btn7">
-                    7
-                </button>
-            </div>
-            <div class="column">
-                <button class="button is-large is-link is-fullwidth" id="btn8">
-                    8
-                </button>
-            </div>
-            <div class="column">
-                <button class="button is-large is-link is-fullwidth" id="btn9">
-                    9
-                </button>
-            </div>
-            <div class="column"><button class="button is-large is-link is-fullwidth" id="minus">-</button></div>
-        </div>
-        <div class=" columns is-mobile box">
-            <div class="column">
-                <button class="button is-large is-link is-fullwidth" id="btn0">
-                    0
-                </button>
-            </div>
-            <div class="column">
-                <button class="button is-large is-link is-fullwidth" id="dot">
-                    .
-                </button>
-            </div>
-            <div class="column">
-                <button class="button is-large is-link is-fullwidth" id="clear">
-                    Clear
-                </button>
-            </div>
-            <div class="column"><button class="button is-large is-link is-fullwidth" id="into">*</button></div>
-        </div>
-      <div class=" columns is-mobile box">  
-        <button id="eqal2" class="button is-large is-link is-fullwidth">=</button></div>
+    <div class="columns is-mobile box">
+      <div class="column">
+        <button class="button is-large is-link is-fullwidth" id="btn4">
+          4
+        </button>
+      </div>
+      <div class="column">
+        <button class="button is-large is-link is-fullwidth" id="btn5">
+          5
+        </button>
+      </div>
+      <div class="column">
+        <button class="button is-large is-link is-fullwidth" id="btn6">
+          6
+        </button>
+      </div>
+      <div class="column">
+        <button class="button is-large is-link is-fullwidth" id="plus">
+          +
+        </button>
+      </div>
+    </div>
+    <div class="columns is-mobile box">
+      <div class="column">
+        <button class="button is-large is-link is-fullwidth" id="btn7">
+          7
+        </button>
+      </div>
+      <div class="column">
+        <button class="button is-large is-link is-fullwidth" id="btn8">
+          8
+        </button>
+      </div>
+      <div class="column">
+        <button class="button is-large is-link is-fullwidth" id="btn9">
+          9
+        </button>
+      </div>
+      <div class="column">
+        <button class="button is-large is-link is-fullwidth" id="minus">
+          -
+        </button>
+      </div>
+    </div>
+    <div class="columns is-mobile box">
+      <div class="column">
+        <button class="button is-large is-link is-fullwidth" id="btn0">
+          0
+        </button>
+      </div>
+      <div class="column">
+        <button class="button is-large is-link is-fullwidth" id="dot">.</button>
+      </div>
+      <div class="column">
+        <button class="button is-large is-link is-fullwidth" id="clear">
+          Clear
+        </button>
+      </div>
+      <div class="column">
+        <button class="button is-large is-link is-fullwidth" id="into">
+          *
+        </button>
+      </div>
+    </div>
+    <div class="columns is-mobile box">
+      <button id="eqal2" class="button is-large is-link is-fullwidth">=</button>
+    </div>
 
-
-
-
-
-
-        <script src="index.js"></script>
-</body>
-
+    <script src="index.js"></script>
+  </body>
 </html>
