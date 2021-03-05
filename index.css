@@ -30,3 +30,6 @@
     font-size: 30px;
     font-weight: bold;
 }
+
+html {overflow-x: hidden;
+overflow: hidden}
