@@ -51,7 +51,7 @@ function into() {
 }
 
 function inpt1() {
-  console.log('a')
+  // console.log('a')
   document.getElementById("inpt1").value += 1;
 }
 function inpt2() {
@@ -96,7 +96,7 @@ function inptdot() {
 
 function equal1() {
   var c2 = document.getElementById("inpt1").value;
-  console.log(c2);
+  // console.log(c2);
 
   if (c2 == "") {
     alert("input is empty");
@@ -107,13 +107,6 @@ function equal1() {
   }
 }
 
-document.getElementById("clear").addEventListener("click", clearall);
-document.getElementById("divd").addEventListener("click", divd1);
-document.getElementById("eqal2").addEventListener("click", equal1);
-document.getElementById("dot").addEventListener("click", inptdot);
-document.getElementById("plus").addEventListener("click", plus);
-document.getElementById("into").addEventListener("click", into);
-document.getElementById("minus").addEventListener("click", minus);
 
 document.getElementById("btn1").addEventListener("click", inpt1);
 document.getElementById("btn2").addEventListener("click", inpt2);
@@ -125,3 +118,11 @@ document.getElementById("btn7").addEventListener("click", inpt7);
 document.getElementById("btn8").addEventListener("click", inpt8);
 document.getElementById("btn9").addEventListener("click", inpt9);
 document.getElementById("btn0").addEventListener("click", inpt0);
+
+document.getElementById("clear").addEventListener("click", clearall);
+document.getElementById("divd").addEventListener("click", divd1);
+document.getElementById("eqal2").addEventListener("click", equal1);
+document.getElementById("dot").addEventListener("click", inptdot);
+document.getElementById("plus").addEventListener("click", plus);
+document.getElementById("into").addEventListener("click", into);
+document.getElementById("minus").addEventListener("click", minus);
