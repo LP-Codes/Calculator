@@ -27,6 +27,13 @@ function plus(e) {
     document.getElementById("inpt1").value += "+";
   }
 }
+
+
+
+function percent1() {
+  document.getElementById("inpt1").value += "%"
+}
+
 function minus() {
   let lastChar = document.getElementById("inpt1").value;
   // console.log(lastChar.slice(-1))
@@ -106,6 +113,11 @@ function equal1() {
     );
   }
 }
+function backspace1() {
+  let lastChar1 = document.getElementById("inpt1").value;
+  document.getElementById("inpt1").value =lastChar1.slice(1)
+}
+
 
 document.getElementById("btn1").addEventListener("click", inpt1);
 document.getElementById("btn2").addEventListener("click", inpt2);
@@ -125,3 +137,6 @@ document.getElementById("dot").addEventListener("click", inptdot);
 document.getElementById("plus").addEventListener("click", plus);
 document.getElementById("into").addEventListener("click", into);
 document.getElementById("minus").addEventListener("click", minus);
+document.getElementById("backspace").addEventListener("click", backspace1);
+
+document.getElementById("percent").addEventListener("click", percent1);
