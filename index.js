@@ -147,3 +147,4 @@ document.getElementById("dot").addEventListener("click", inptdot);
 document.getElementById("plus").addEventListener("click", plus);
 document.getElementById("into").addEventListener("click", into);
 document.getElementById("minus").addEventListener("click", minus);
+
