@@ -107,7 +107,6 @@ function equal1() {
   }
 }
 
-
 document.getElementById("btn1").addEventListener("click", inpt1);
 document.getElementById("btn2").addEventListener("click", inpt2);
 document.getElementById("btn3").addEventListener("click", inpt3);
